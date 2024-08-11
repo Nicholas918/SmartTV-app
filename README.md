@@ -1,2 +1,2 @@
-# dio-trilha-java-basico
-Repositório para pratica do curso Java Básico pela DIO
+# SmarTV app
+Repositório de um projeto basico de simumlação de uma TV
