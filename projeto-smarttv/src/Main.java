@@ -8,7 +8,6 @@ public class Main {
         SmartTv smartTV = new SmartTv();
 
         
-
         while (smartTV.ligada == true) {
             
         System.out.println(smartTV.statusTv());
@@ -26,12 +25,14 @@ public class Main {
                 smartTV.aumentarCanal();
             }else if (opcao == 4){
                 smartTV.diminuirCanal();
-            }else {
+            }else if(opcao ==5){
                 System.out.println("\nDigite o canal...\n");
                 int canalRecebido = scanner.nextInt();
                 smartTV.mudarCanal(canalRecebido);
             }
-            
+            else {
+                System.out.println("\nA opção informada não é valida\n");
+            }
         }
 
         System.out.println("\n\n\n");
